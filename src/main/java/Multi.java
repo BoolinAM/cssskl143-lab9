@@ -8,7 +8,7 @@ public class Multi implements Runnable {
 	private String name = "";
 	
 	public Multi(String newName ) {
-		name = newName;
+		this.name = newName;
 	}
 	
 	//This is the key to the Runnable Interface	
